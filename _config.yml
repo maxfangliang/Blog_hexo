@@ -78,4 +78,6 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@47.99.99.138:/home/git/repository/blog.git  #Git仓库地址
+  branch: master
