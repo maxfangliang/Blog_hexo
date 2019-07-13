@@ -2,12 +2,27 @@
 
 源文件
 
+## 安装依赖
 
-## npm start
+```
+npm install
+```
 
-**本地调试**
+## 更新icarus子模块
 
+```
+git submodule init
+git submodule update
+```
 
-## npm run deploy
+## 本地调试
 
-**部署到服务器**
+```
+npm start
+```
+
+## 部署到服务器
+
+```
+npm run deploy
+```
